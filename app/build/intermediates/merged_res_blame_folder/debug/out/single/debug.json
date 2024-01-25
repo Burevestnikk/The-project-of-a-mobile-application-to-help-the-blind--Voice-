@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_phone.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/phone.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bg1.jpg.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bg1.jpg"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg5.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg5.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/layout_activity_registration.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_videocam_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_videocam_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_call_end_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_call_end_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/font_montserrat_thin.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/font/montserrat_thin.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/font_montserrat_alternates_light.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/font/montserrat_alternates_light.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_rounded_button_gray.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/rounded_button_gray.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_help.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/help.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg2.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg2.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_rounded_button.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_hearing_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_hearing_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/font_montserrat.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/font/montserrat.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg6.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg6.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_curve_background.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/curve_background.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_cameraswitch_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_cameraswitch_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_videocam_off_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_videocam_off_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bg3.jpg.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bg3.jpg"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/font_montserrat_bold.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/font/montserrat_bold.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_circle_background.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/font_montserrat_light.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/font/montserrat_light.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/font_montserrat_medium.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/font/montserrat_medium.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg3.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg3.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_speaker_up_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_speaker_up_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_reject.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_reject.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg7.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg7.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bg2.jpg.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bg2.jpg"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_accept.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_accept.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg4.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg4.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_mic_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_mic_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bg4.jpg.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bg4.jpg"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_location_on.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_location_on.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/layout_activity_selectgroup.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_selectgroup.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_launcher_person_raised_hand.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_launcher_person_raised_hand.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_mic_off_24.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_mic_off_24.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_bgimg1.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/bgimg1.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/layout_activity_call.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_call.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_firebase.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/firebase.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.aplikacja.app-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aplikacja.app-merged_res-36:/drawable_ic_baseline_location_off.xml.flat",
+        "source": "com.example.aplikacja.app-main-38:/drawable/ic_baseline_location_off.xml"
+    }
+]

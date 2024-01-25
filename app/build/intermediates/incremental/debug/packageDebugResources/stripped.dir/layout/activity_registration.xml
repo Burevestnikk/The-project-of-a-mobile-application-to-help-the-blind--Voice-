@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.aplikacja.ui.RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/bg3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg4" />
+
+    <LinearLayout
+        android:id="@+id/LinearReg"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="8sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/enterBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/welcomeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="5sp"
+            android:text="Zaloguj się"
+            android:textColor="#020202"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcomeDescSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="5sp"
+            android:text="Logowanie odbywa się za pomocą danych przesłanych przez organizację"
+            android:textColor="#020202"
+            android:textSize="34sp"
+            android:textStyle="normal" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            app:boxStrokeColor="#4F5058"
+            app:endIconTint="#4F5058"
+            app:hintTextColor="#4F5058"
+            app:startIconTint="#4F5058">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/til1Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Login"
+                android:textSize="34sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            app:boxStrokeColor="#4F5058"
+            app:endIconTint="#4F5058"
+            app:hintTextColor="#4F5058"
+            app:startIconTint="#4F5058">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/til2Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hasło"
+                android:textSize="34sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enterBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12sp"
+            android:layout_marginTop="24sp"
+            android:layout_marginBottom="0sp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#4F5058"
+            android:text="Zaloguj się"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LinearReg" />
+
+        <TextView
+            android:id="@+id/welcomeDescSelect2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="5sp"
+            android:text="Jeśli zapomniałeś danych, skontaktuj się z kuratorem"
+            android:textColor="#020202"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12sp"
+        android:layout_marginTop="24sp"
+        android:layout_marginBottom="24sp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#4F5058"
+        android:text="Wstecz"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LinearReg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

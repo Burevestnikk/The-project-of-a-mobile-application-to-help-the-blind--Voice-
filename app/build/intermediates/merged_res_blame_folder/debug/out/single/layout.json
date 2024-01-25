@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.aplikacja.app-mergeDebugResources-35:/layout/activity_registration.xml",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-mergeDebugResources-35:/layout/activity_selectgroup.xml",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_selectgroup.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.aplikacja.app-mergeDebugResources-35:/layout/activity_call.xml",
+        "source": "com.example.aplikacja.app-main-38:/layout/activity_call.xml"
+    }
+]

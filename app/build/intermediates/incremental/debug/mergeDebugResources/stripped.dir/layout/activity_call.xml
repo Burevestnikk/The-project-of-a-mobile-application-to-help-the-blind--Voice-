@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F4ECEC"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/bg4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg4" />
+
+    <LinearLayout
+        android:id="@+id/incomingCallLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/incomingNameTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="POTRZEBNA POMOC"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/acceptButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:padding="15dp"
+            android:src="@drawable/ic_accept" />
+
+        <ImageView
+            android:id="@+id/rejectButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:padding="15dp"
+            android:src="@drawable/ic_reject" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/whoToCallLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/incomingCallLayout"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/LinearWhoToCallLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/enterBackCall"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="MENU WEZWANIA POMOCY"
+                android:textColor="#020202"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="24sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginEnd="24sp"
+                android:layout_marginBottom="32sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#4F5058"
+                android:text="ZNAJDŹ POMOC"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                android:textStyle="normal"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_constraintBottom_toTopOf="@id/textView3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancelCallBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="24sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginEnd="24sp"
+                android:layout_marginBottom="32sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#4F5058"
+                android:text="ANULUJ"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                android:textStyle="normal"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_constraintBottom_toTopOf="@id/textView3" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bgimg7" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enterBackCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="12sp"
+            android:layout_marginTop="24sp"
+            android:layout_marginBottom="24sp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#4F5058"
+            android:text="Wstecz"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LinearWhoToCallLayout" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/whoVolunteerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/incomingCallLayout"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/LinearWhoVolunteerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/enterBackCallVolunteer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/textViewCallVolunteer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="Zostałeś aktywny"
+                android:textColor="#020202"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCallVolunteerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="Proszę bądź uprzejmy i przestrzegaj zalecanych protokołów"
+                android:textColor="#020202"
+                android:textSize="34sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bgimg6" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enterBackCallVolunteer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="12sp"
+            android:layout_marginTop="24sp"
+            android:layout_marginBottom="24sp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#4F5058"
+            android:text="Wstecz"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LinearWhoVolunteerLayout" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/callLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="invisible">
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/remoteView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            tools:visibility="gone" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            tools:visibility="gone" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/localView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/controls"
+            android:elevation="16dp"
+            android:visibility="gone"
+            tools:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/controls"
+            android:layout_width="match_parent"
+            android:layout_height="133sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/curve_background"
+            android:backgroundTint="@android:color/secondary_text_light"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            tools:ignore="DuplicateIds">
+
+            <ImageView
+                android:id="@+id/mic_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/circle_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="12dp"
+                android:visibility="gone"
+                app:backgroundTint="@color/cardview_dark_background"
+                app:srcCompat="@drawable/ic_baseline_mic_off_24"
+                tools:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/video_button"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_margin="16sp"
+                android:background="@drawable/circle_background"
+                android:clickable="true"
+                android:contentDescription="Mapa"
+                android:contextClickable="false"
+                android:focusable="true"
+                android:foregroundTint="#FFFFFF"
+                android:padding="12sp"
+                android:tint="#F8F8F8"
+                android:visibility="visible"
+                app:backgroundTint="@color/cardview_dark_background"
+                app:srcCompat="@drawable/ic_baseline_location_on"
+                tools:ignore="UseAppTint" />
+
+            <ImageView
+                android:id="@+id/switch_camera_button"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_margin="16sp"
+                android:background="@drawable/circle_background"
+                android:clickable="true"
+                android:contentDescription="Zmień widok kamery"
+                android:focusable="true"
+                android:padding="12sp"
+                app:backgroundTint="@color/cardview_dark_background"
+                app:srcCompat="@drawable/ic_baseline_cameraswitch_24"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/end_call_button"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_margin="16sp"
+                android:background="@drawable/circle_background"
+                android:clickable="true"
+                android:contentDescription="Zakończ pomoc"
+                android:focusable="true"
+                android:padding="12sp"
+                app:backgroundTint="@android:color/holo_red_dark"
+                app:srcCompat="@drawable/ic_baseline_call_end_24"
+                tools:ignore="DuplicateIds" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/callLayoutBlind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/textViewCallVolunteer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:padding="5sp"
+            android:text="ROZMOWA W TOKU"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewCallVolunteer3"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_below="@+id/textViewCallVolunteer2"
+            android:layout_marginTop="75sp"
+            android:layout_marginEnd="0sp"
+            android:layout_marginBottom="75sp"
+            android:padding="5sp"
+            android:text="Ładowanie..."
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/controls2"
+            android:layout_width="match_parent"
+            android:layout_height="130sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/curve_background"
+            android:backgroundTint="@android:color/secondary_text_light"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            tools:ignore="DuplicateIds">
+
+            <ImageView
+                android:id="@+id/switch_camera_button2"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_margin="16sp"
+                android:background="@drawable/circle_background"
+                android:clickable="true"
+                android:contentDescription="Zmień widok kamery"
+                android:focusable="true"
+                android:padding="12sp"
+                app:backgroundTint="@color/cardview_dark_background"
+                app:srcCompat="@drawable/ic_baseline_cameraswitch_24"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/end_call_button2"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_margin="16sp"
+                android:background="@drawable/circle_background"
+                android:clickable="true"
+                android:contentDescription="Zakończ pomoc"
+                android:focusable="true"
+                android:padding="12sp"
+                app:backgroundTint="@android:color/holo_red_dark"
+                app:srcCompat="@drawable/ic_baseline_call_end_24"
+                tools:ignore="DuplicateIds" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

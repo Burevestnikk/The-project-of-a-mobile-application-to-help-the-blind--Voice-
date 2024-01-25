@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aplikacja"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\aplikacja\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\aplikacja\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->E:\aplikacja\app\src\main\AndroidManifest.xml:5:5-77
+11-->E:\aplikacja\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->E:\aplikacja\app\src\main\AndroidManifest.xml:6:5-71
+12-->E:\aplikacja\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->E:\aplikacja\app\src\main\AndroidManifest.xml:7:5-65
+13-->E:\aplikacja\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->E:\aplikacja\app\src\main\AndroidManifest.xml:8:5-81
+14-->E:\aplikacja\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\aplikacja\app\src\main\AndroidManifest.xml:9:5-79
+15-->E:\aplikacja\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->E:\aplikacja\app\src\main\AndroidManifest.xml:10:5-67
+16-->E:\aplikacja\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->E:\aplikacja\app\src\main\AndroidManifest.xml:11:5-79
+17-->E:\aplikacja\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->E:\aplikacja\app\src\main\AndroidManifest.xml:5:5-77
+18-->E:\aplikacja\app\src\main\AndroidManifest.xml:5:22-74
+19
+20    <queries>
+20-->E:\aplikacja\app\src\main\AndroidManifest.xml:13:5-15:15
+21        <package android:name="com.google.android.apps.maps" />
+21-->E:\aplikacja\app\src\main\AndroidManifest.xml:14:9-64
+21-->E:\aplikacja\app\src\main\AndroidManifest.xml:14:18-61
+22    </queries>
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\monst\.gradle\caches\transforms-3\85fdea07de325dbe5aa6561462c31e96\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\monst\.gradle\caches\transforms-3\85fdea07de325dbe5aa6561462c31e96\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\monst\.gradle\caches\transforms-3\85fdea07de325dbe5aa6561462c31e96\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\monst\.gradle\caches\transforms-3\d407fc7447902a89eee8188991ceed03\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.aplikacja.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\monst\.gradle\caches\transforms-3\d407fc7447902a89eee8188991ceed03\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\monst\.gradle\caches\transforms-3\d407fc7447902a89eee8188991ceed03\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.aplikacja.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\monst\.gradle\caches\transforms-3\d407fc7447902a89eee8188991ceed03\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\monst\.gradle\caches\transforms-3\d407fc7447902a89eee8188991ceed03\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->E:\aplikacja\app\src\main\AndroidManifest.xml:17:5-51:19
+35        android:allowBackup="true"
+35-->E:\aplikacja\app\src\main\AndroidManifest.xml:18:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\monst\.gradle\caches\transforms-3\d407fc7447902a89eee8188991ceed03\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->E:\aplikacja\app\src\main\AndroidManifest.xml:19:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->E:\aplikacja\app\src\main\AndroidManifest.xml:20:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->E:\aplikacja\app\src\main\AndroidManifest.xml:21:9-43
+42        android:label="@string/app_name"
+42-->E:\aplikacja\app\src\main\AndroidManifest.xml:22:9-41
+43        android:supportsRtl="true"
+43-->E:\aplikacja\app\src\main\AndroidManifest.xml:23:9-35
+44        android:theme="@style/Theme.pam2ea" >
+44-->E:\aplikacja\app\src\main\AndroidManifest.xml:24:9-44
+45        <meta-data
+45-->E:\aplikacja\app\src\main\AndroidManifest.xml:27:9-29:71
+46            android:name="com.google.android.geo.API_KEY"
+46-->E:\aplikacja\app\src\main\AndroidManifest.xml:28:13-58
+47            android:value="AIzaSyBYUWqeAZ0PsVTB9PSosVIkbZLIETKWM9Y" />
+47-->E:\aplikacja\app\src\main\AndroidManifest.xml:29:13-68
+48        <meta-data
+48-->E:\aplikacja\app\src\main\AndroidManifest.xml:30:9-32:57
+49            android:name="preloaded_fonts"
+49-->E:\aplikacja\app\src\main\AndroidManifest.xml:31:13-43
+50            android:resource="@array/preloaded_fonts" />
+50-->E:\aplikacja\app\src\main\AndroidManifest.xml:32:13-54
+51
+52        <activity
+52-->E:\aplikacja\app\src\main\AndroidManifest.xml:34:9-41:20
+53            android:name="com.example.aplikacja.ui.LoginActivity"
+53-->E:\aplikacja\app\src\main\AndroidManifest.xml:35:13-45
+54            android:exported="true" >
+54-->E:\aplikacja\app\src\main\AndroidManifest.xml:36:13-36
+55            <intent-filter>
+55-->E:\aplikacja\app\src\main\AndroidManifest.xml:37:13-40:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->E:\aplikacja\app\src\main\AndroidManifest.xml:38:17-69
+56-->E:\aplikacja\app\src\main\AndroidManifest.xml:38:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->E:\aplikacja\app\src\main\AndroidManifest.xml:39:17-77
+58-->E:\aplikacja\app\src\main\AndroidManifest.xml:39:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->E:\aplikacja\app\src\main\AndroidManifest.xml:42:9-44:39
+62            android:name="com.example.aplikacja.ui.CallActivity"
+62-->E:\aplikacja\app\src\main\AndroidManifest.xml:43:13-44
+63            android:exported="true" />
+63-->E:\aplikacja\app\src\main\AndroidManifest.xml:44:13-36
+64        <activity
+64-->E:\aplikacja\app\src\main\AndroidManifest.xml:45:9-47:39
+65            android:name="com.example.aplikacja.ui.SelectgroupActivity"
+65-->E:\aplikacja\app\src\main\AndroidManifest.xml:46:13-51
+66            android:exported="true" />
+66-->E:\aplikacja\app\src\main\AndroidManifest.xml:47:13-36
+67        <activity
+67-->E:\aplikacja\app\src\main\AndroidManifest.xml:48:9-50:39
+68            android:name="com.example.aplikacja.ui.RegistrationActivity"
+68-->E:\aplikacja\app\src\main\AndroidManifest.xml:49:13-52
+69            android:exported="true" />
+69-->E:\aplikacja\app\src\main\AndroidManifest.xml:50:13-36
+70
+71        <service
+71-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\3021ed261c942565714b92ab438c1050\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\3021ed261c942565714b92ab438c1050\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:10:13-84
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\3021ed261c942565714b92ab438c1050\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:11:13-37
+75            <meta-data
+75-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\3021ed261c942565714b92ab438c1050\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+76                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
+76-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\3021ed261c942565714b92ab438c1050\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:13:17-127
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\3021ed261c942565714b92ab438c1050\transformed\firebase-database-ktx-20.3.0\AndroidManifest.xml:14:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-database:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\31bc7b9726bf8007a64855d962e9bb9b\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+79-->[com.google.firebase:firebase-database:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\31bc7b9726bf8007a64855d962e9bb9b\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\31bc7b9726bf8007a64855d962e9bb9b\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-database:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\31bc7b9726bf8007a64855d962e9bb9b\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+82-->[com.google.firebase:firebase-database:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\31bc7b9726bf8007a64855d962e9bb9b\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-database:20.3.0] C:\Users\monst\.gradle\caches\transforms-3\31bc7b9726bf8007a64855d962e9bb9b\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\504443528d6308d483e017d30b6fd368\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+85-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\504443528d6308d483e017d30b6fd368\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\504443528d6308d483e017d30b6fd368\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+88                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+88-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+90        </service> <!-- Needs to be explicitly declared on P+ -->
+91        <uses-library
+91-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\monst\.gradle\caches\transforms-3\85fdea07de325dbe5aa6561462c31e96\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+92            android:name="org.apache.http.legacy"
+92-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\monst\.gradle\caches\transforms-3\85fdea07de325dbe5aa6561462c31e96\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+93            android:required="false" />
+93-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\monst\.gradle\caches\transforms-3\85fdea07de325dbe5aa6561462c31e96\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+94
+95        <meta-data
+95-->[com.google.maps.android:android-maps-utils:2.2.0] C:\Users\monst\.gradle\caches\transforms-3\55f48634b251ed3e94eb34453d1e55f0\transformed\android-maps-utils-2.2.0\AndroidManifest.xml:12:9-14:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.maps.android:android-maps-utils:2.2.0] C:\Users\monst\.gradle\caches\transforms-3\55f48634b251ed3e94eb34453d1e55f0\transformed\android-maps-utils-2.2.0\AndroidManifest.xml:13:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.maps.android:android-maps-utils:2.2.0] C:\Users\monst\.gradle\caches\transforms-3\55f48634b251ed3e94eb34453d1e55f0\transformed\android-maps-utils-2.2.0\AndroidManifest.xml:14:13-66
+98
+99        <provider
+99-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+100            android:name="com.google.firebase.provider.FirebaseInitProvider"
+100-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+101            android:authorities="com.example.aplikacja.firebaseinitprovider"
+101-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+103            android:exported="false"
+103-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+104            android:initOrder="100" />
+104-->[com.google.firebase:firebase-common:20.4.2] C:\Users\monst\.gradle\caches\transforms-3\f7de3df0f59bcc4e088e8bb41806bc39\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\monst\.gradle\caches\transforms-3\6dfc0edacbfd68432d5b58116827af8d\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\monst\.gradle\caches\transforms-3\6dfc0edacbfd68432d5b58116827af8d\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\monst\.gradle\caches\transforms-3\6dfc0edacbfd68432d5b58116827af8d\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\monst\.gradle\caches\transforms-3\6dfc0edacbfd68432d5b58116827af8d\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.aplikacja.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\monst\.gradle\caches\transforms-3\d46ddb35890a56057147b6b3845870d9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\monst\.gradle\caches\transforms-3\1fdb2319aaf5281fc4122c7aa54f2d72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\monst\.gradle\caches\transforms-3\1fdb2319aaf5281fc4122c7aa54f2d72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\monst\.gradle\caches\transforms-3\1fdb2319aaf5281fc4122c7aa54f2d72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+121        </provider>
+122    </application>
+123
+124</manifest>

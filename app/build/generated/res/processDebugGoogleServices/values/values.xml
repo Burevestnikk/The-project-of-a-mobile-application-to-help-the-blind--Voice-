@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://aplikacja-fe4d7-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">543155854608</string>
+    <string name="google_api_key" translatable="false">AIzaSyAkVUo3R0c17gJXRTFHfkxQ-GE0ci4eyPI</string>
+    <string name="google_app_id" translatable="false">1:543155854608:android:99f9038b092172a5dd5995</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAkVUo3R0c17gJXRTFHfkxQ-GE0ci4eyPI</string>
+    <string name="google_storage_bucket" translatable="false">aplikacja-fe4d7.appspot.com</string>
+    <string name="project_id" translatable="false">aplikacja-fe4d7</string>
+</resources>

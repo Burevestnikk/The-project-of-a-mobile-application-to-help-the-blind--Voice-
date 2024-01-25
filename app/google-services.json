@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "543155854608",
+    "firebase_url": "https://aplikacja-fe4d7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "aplikacja-fe4d7",
+    "storage_bucket": "aplikacja-fe4d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543155854608:android:99f9038b092172a5dd5995",
+        "android_client_info": {
+          "package_name": "com.example.aplikacja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkVUo3R0c17gJXRTFHfkxQ-GE0ci4eyPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
